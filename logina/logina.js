@@ -1,5 +1,5 @@
 const erabiltzailea = document.getElementById('erabiltzailea');
-const password = document.getElementById('password');
+const pasahitza = document.getElementById('pasahitza');
 const button = document.getElementById('button');
 
 button.onclick = function (e) {
@@ -7,7 +7,7 @@ button.onclick = function (e) {
 
     const data = {
         username: erabiltzailea.value,
-        password: password.value
+        pasahitza: pasahitza.value
     };
 
     console.log(data);
